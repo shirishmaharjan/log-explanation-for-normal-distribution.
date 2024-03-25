@@ -74,14 +74,24 @@ data <- gapminder %>%
 t.test(data = data, lifeExp ~ country)
 
 head(gapminder)
+
 tail(gapminder)
+
 colnames(gapminder)
+
 dim(gapminder)
+
 str(gapminder)
+
 summary(gapminder)
+
 summary(gapminder$lifeExp)
+
 median(gapminder$lifeExp)
+
 class(gapminder$lifeExp)
+
 unique(gapminder$country)
+
 subset(gapminder, conc == min(gapminder$lifeExp))
 
