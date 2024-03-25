@@ -23,4 +23,5 @@ For example:
 
 log base 10 of 100 is 2, because 10 raised to the power of 2 equals 100 (log10(100) = 2).
 log base e (natural logarithm) of e^3 is 3, because e raised to the power of 3 equals e^3 (ln(e^3) = 3).
+
 When you apply a logarithmic transformation to your data, you're essentially taking the logarithm of each data point. This has the effect of compressing large values more than small ones, thereby reducing skewness and stabilizing variance. It's important to note that which base of logarithm to use (e.g., natural logarithm, base-10 logarithm) depends on the context of the data and the specific requirements of the analysis.
