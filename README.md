@@ -56,3 +56,32 @@ Example: log base 3 of 81
 In this example, you're finding the logarithm base 3 of the number 81. This means you're looking for the power to which 3 must be raised to equal 81.
 3 raised to the power of 4 equals 81 (3^4 = 81). Therefore, log base 3 of 81 is 4. So, log3(81) = 4.
 These examples demonstrate how logarithms work by showing the relationship between a base and a given number, and how to find the exponent (power) needed to produce that number.
+
+
+
+# Example of gapminder 
+
+library(gapminder)
+data("gapminder")
+gapminder <- as.data.frame(gapminder)
+
+library(dplyr)
+
+data <- gapminder %>% 
+  select(country, year, lifeExp) %>% 
+  filter(country == "Nepal" | country == "China") 
+
+t.test(data = data, lifeExp ~ country)
+
+head(gapminder)
+tail(gapminder)
+colnames(gapminder)
+dim(gapminder)
+str(gapminder)
+summary(gapminder)
+summary(gapminder$lifeExp)
+median(gapminder$lifeExp)
+class(gapminder$lifeExp)
+unique(gapminder$country)
+subset(gapminder, conc == min(gapminder$lifeExp))
+
