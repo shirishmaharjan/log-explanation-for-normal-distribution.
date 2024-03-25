@@ -25,3 +25,34 @@ log base 10 of 100 is 2, because 10 raised to the power of 2 equals 100 (log10(1
 log base e (natural logarithm) of e^3 is 3, because e raised to the power of 3 equals e^3 (ln(e^3) = 3).
 
 When you apply a logarithmic transformation to your data, you're essentially taking the logarithm of each data point. This has the effect of compressing large values more than small ones, thereby reducing skewness and stabilizing variance. It's important to note that which base of logarithm to use (e.g., natural logarithm, base-10 logarithm) depends on the context of the data and the specific requirements of the analysis.
+
+
+
+More Example and explanation "
+
+Certainly! Let's break down the examples you provided and provide some additional examples:
+
+Example: log base 10 of 100
+
+In this example, you're asking for the logarithm base 10 of the number 100. This means you're looking for the power to which 10 must be raised to equal 100.
+So, log base 10 of 100 is 2, because 10 raised to the power of 2 equals 100 (10^2 = 100). Therefore, log10(100) = 2.
+Example: log base e (natural logarithm) of e^3
+
+Here, you're taking the natural logarithm (base e) of the number e^3. The natural logarithm is denoted as ln.
+The natural logarithm of a number answers the question: to what power must the base e be raised to equal the given number.
+So, ln(e^3) is asking, what power must e be raised to in order to get e^3? Since e^3 equals e raised to the power of 3, ln(e^3) = 3.
+Additional Examples:
+
+Example: log base 2 of 8
+
+In this example, you're finding the logarithm base 2 of the number 8. This means you're looking for the power to which 2 must be raised to equal 8.
+2 raised to the power of 3 equals 8 (2^3 = 8). Therefore, log base 2 of 8 is 3. So, log2(8) = 3.
+Example: log base 5 of 25
+
+Here, you're taking the logarithm base 5 of the number 25. This means you're looking for the power to which 5 must be raised to equal 25.
+5 raised to the power of 2 equals 25 (5^2 = 25). Therefore, log base 5 of 25 is 2. So, log5(25) = 2.
+Example: log base 3 of 81
+
+In this example, you're finding the logarithm base 3 of the number 81. This means you're looking for the power to which 3 must be raised to equal 81.
+3 raised to the power of 4 equals 81 (3^4 = 81). Therefore, log base 3 of 81 is 4. So, log3(81) = 4.
+These examples demonstrate how logarithms work by showing the relationship between a base and a given number, and how to find the exponent (power) needed to produce that number.
